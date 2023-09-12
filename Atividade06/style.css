@@ -1,0 +1,64 @@
+.container{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Instituto_Federal_de_S%C3%A3o_Paulo_-_Marca_Vertical_2015.svg/1200px-Instituto_Federal_de_S%C3%A3o_Paulo_-_Marca_Vertical_2015.svg.png);
+    background-position: center right;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+body{
+    background-image: url(paleta-de-cores.png);
+    background-size: 100px;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    min-height: 95vh;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+table{
+    width: 350px;
+    height: 350px;
+}
+
+.background-red {
+    background-color: red;
+}
+
+.background-b30 {
+    background-color: #b30000;
+}
+
+.background-66 {
+    background-color: #660000;
+}
+
+.background-green {
+    background-color: green;
+}
+
+.background-99 {
+    background-color: #99ff99;
+}
+
+.background-00 {
+    background-color: #004d00;
+}
+
+.background-blue{
+    background-color: blue;
+}
+
+.background-cc{
+    background-color: #ccccff;
+}
+
+.background-0066{
+    background-color: #000066
+}
+
+
