@@ -1,0 +1,41 @@
+
+
+body{
+    background-color: aqua;
+    background-image: url("https://pbs.twimg.com/profile_images/1446258566671835149/vsUwB8xF_400x400.jpg");
+    background-repeat: no-repeat;
+    background-position: 1500px;
+    background-position: right 0% bottom 400%; 
+}
+
+.sec1{
+    background-color: violet;
+
+}
+
+.sec2{
+    
+
+    background-image: url("https://pbs.twimg.com/profile_images/1446258566671835149/vsUwB8xF_400x400.jpg");
+    background-size: contain;
+
+    
+}
+
+.sec3{
+
+    background-color: aquamarine;
+    opacity: 0.5;
+    margin-bottom: 0;
+    
+}
+
+.titulo2{
+    color: blueviolet;
+}
+
+.imagem{
+    margin-left: 1500px;
+    margin-top: 0;
+    display: inline-block;
+}
