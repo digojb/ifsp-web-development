@@ -1,0 +1,46 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+.div1{
+    background-color: #ececec;
+    border-top: solid #385170 15px;
+    border-bottom: solid  #385170 15px;
+    margin-bottom: 30px;
+
+}
+.div2{
+    background-color: #9fd3c7;
+    border-top: solid #385170 15px;
+    border-bottom: solid  #385170 15px;
+
+}
+
+.img1{
+    width: 300px;
+    height: 200px;
+    padding-bottom: 50px;
+    
+}
+.img2{
+    width: 400px;
+    height: 300px;
+    padding-bottom: 50px;
+
+}
+.img3{
+    width: 500px;
+    height: 400px;
+    padding-bottom: 50px;
+    
+}
+.img4{
+    width: 600px;
+    height: 500px;
+    padding-bottom: 50px;
+    
+}
+
+#right{
+    text-align: right;
+}
