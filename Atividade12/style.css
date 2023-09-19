@@ -1,0 +1,25 @@
+.div1{
+    background-color: #e0ebeb;
+    border-bottom: solid  #24527a 10px;
+    border-right: solid  #24527a 20px;
+    margin-bottom: 20px;
+    width: 1000px;
+    margin-left: 300px;
+    text-indent: 20px;
+    
+}
+
+.div2{
+    border: dotted #a7bcb9 10px;
+    width: 1000px;
+    margin-left: 300px;
+
+
+}
+
+#img{
+    border: double  #a7bcb9 20px;
+    width: 550px;
+    height: 400px;
+    
+}
