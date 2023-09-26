@@ -1,0 +1,26 @@
+.divMaior{
+    background-color: gray;
+    border-bottom: dashed 20px;
+    width: 1000px;
+    height: 400px;
+    margin-left: 450px;
+}
+.divMeio{
+    background-color: aqua;
+    border: solid 10px blue;
+    width: 500px;
+    height: 250px;
+    margin-left: 230px;   
+
+}
+
+.divCirculo{
+    background-color: white;
+    border: solid 5px;
+    border-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    margin-left: 170px;
+    margin-top: 45px;
+}
