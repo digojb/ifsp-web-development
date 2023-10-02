@@ -1,0 +1,32 @@
+.bd{
+    background-color: green;
+}
+.cx1{
+    width: 7vw;
+    height: 7vw;
+    float: right;
+    margin: 1vw;
+}
+#cxa4{
+    clear: both;
+}
+.cx2{
+    width: 18vw;
+    height: 7vw;
+    float: left;
+    margin: 1vw;
+}
+
+.cx3{
+    clear: both;
+    width: 7vw;
+    height: 18vw;
+    float: left;
+    margin: 1vw;
+}
+.cx4{
+    width: 7vw;
+    height: 18vw;
+    float: right;
+    margin: 1vw;
+}
