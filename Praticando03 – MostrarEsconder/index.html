@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mostrar e Esconder DIV</title>
+  <!-- Link para o Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Estilos adicionais para a área a ser mostrada/escondida */
+    #conteudo {
+      display: none;
+      padding: 20px;
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Praticando 3 – Mostrar/Esconder</h1>
+  </div>
+  <div class="container mt-4">
+    <div class="d-flex justify-content-between">
+      <button class="btn btn-primary" id="mostrarBtn">Mostrar</button>
+      <button class="btn btn-secondary" id="esconderBtn">Esconder</button>
+    </div>
+
+    <div id="conteudo">
+      <p>Aqui está o conteúdo para ser mostrado/escondido.</p>
+    </div>
+  </div>
+
+  <!-- Scripts do Bootstrap e JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('mostrarBtn').addEventListener('click', function() {
+        document.getElementById('conteudo').style.display = 'block';
+      });
+
+      document.getElementById('esconderBtn').addEventListener('click', function() {
+        document.getElementById('conteudo').style.display = 'none';
+      });
+    });
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
