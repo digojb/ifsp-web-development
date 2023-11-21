@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário</title>
+  <!-- Link para o Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Estilos adicionais para destacar .is-valid */
+    .is-valid {
+      border-color: #28a745 !important;
+      background-color: #e9f8f2 !important;
+    }
+
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Praticando 2 – Formulário com validações</h1>
+  </div>
+  <div class="container mt-4">
+    <form>
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+      </div>
+      <div class="form-group">
+        <label for="telefone">Telefone</label>
+        <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone">
+      </div>
+      <div class="form-group">
+        <label for="idade">Idade</label>
+        <select class="form-control" id="idade">
+          <option value="">Selecione sua idade</option>
+          <option value="menos de 18">Menos de 18</option>
+          <option value="18-30">18-30</option>
+          <option value="31-50">31-50</option>
+          <option value="mais de 50">Mais de 50</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="observacoes">Observações</label>
+        <textarea class="form-control" id="observacoes" rows="3" placeholder="Digite suas observações"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+
+  <!-- Scripts do Bootstrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // Seleciona todos os campos de entrada
+    const inputs = document.querySelectorAll('input, select, textarea');
+
+    // Adiciona um ouvinte de eventos para cada campo
+    inputs.forEach(input => {
+      input.addEventListener('input', () => {
+        // Verifica se o campo não está vazio
+        if (input.value.trim() !== '') {
+          input.classList.remove('is-invalid');
+          input.classList.add('is-valid');
+        } else {
+          input.classList.remove('is-valid');
+          input.classList.add('is-invalid');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
