@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Obter Nome</title>
+</head>
+
+<body>
+    <script>
+        // Pede o nome da pessoa usando o método 'confirm'
+        var nome = prompt("Qual é o seu nome?");
+
+        // Verifica se o usuário inseriu um nome
+        if (nome != null && nome != "") {
+            // Atualiza o corpo da página com o nome fornecido
+            document.body.innerHTML = "<h1>Olá, " + nome + "!</h1>";
+        } else {
+            // Se nenhum nome for fornecido, exibe uma mensagem padrão
+            document.body.innerHTML = "<h1>Olá, visitante!</h1>";
+        }
+    </script>
+
+    <button onclick="adicionarTexto()">Adicionar Texto</button>
+    <button onclick="removerTexto()">Remover Texto</button>
+
+    <script>
+        // Função para adicionar parágrafo com texto "lorem ipsum"
+        function adicionarTexto() {
+            var novoParagrafo = document.createElement("p");
+            novoParagrafo.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+            document.body.appendChild(novoParagrafo);
+        }
+
+        // Função para remover todos os parágrafos
+        function removerTexto() {
+            var paragrafos = document.querySelectorAll("p");
+            paragrafos.forEach(function (paragrafo) {
+                paragrafo.remove();
+            });
+        }
+    </script>
+
+</body>
+
+</html>
